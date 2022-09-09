@@ -56,7 +56,7 @@ public class Cliente {
   }
 
   public String getNumero() {
-    return numero;
+    return numero != null ? numero.toUpperCase() : null;
   }
 
   public void setNumero(String numero) {

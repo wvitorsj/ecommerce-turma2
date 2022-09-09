@@ -36,4 +36,10 @@ class ClientesTests {
 
 	}
 
+	void numeroNullNaoPodeDarErro() {
+		var cliente = new Cliente();
+		assertEquals(null, cliente.getNumero());
+
+	}
+
 }
